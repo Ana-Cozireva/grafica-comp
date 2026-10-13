@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dtnacmhod1r1w"]
+
+[ext_resource type="Script" uid="uid://bcjpuk7tmckyi" path="res://node_3d.gd" id="1_a202f"]
+[ext_resource type="PackedScene" uid="uid://cxydreeir2gx" path="res://fbx/cat.fbx" id="2_noarx"]
+
+[node name="Node3D" type="Node3D" unique_id=1858055984]
+transform = Transform3D(0.076797925, 0.99704665, 0, -0.99704665, 0.076797925, 0, 0, 0, 1, 0.17536616, 0.8917402, 0.40926814)
+script = ExtResource("1_a202f")
+
+[node name="cat" parent="." unique_id=1164617704 instance=ExtResource("2_noarx")]
+transform = Transform3D(0.09163193, -0.99575317, -0.0089091025, 0.9957496, 0.09170826, -0.008572867, 0.0093535, -0.008085675, 0.9999236, -0.12787262, 0.96264994, 1.1184494)
